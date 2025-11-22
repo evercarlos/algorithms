@@ -10,7 +10,8 @@ public class BinarySearch {
 
     public static boolean search(int[] data, int target) {
 
-        int left = 0, right = data.length - 1;
+        int left = 0;
+        int right = data.length - 1;
 
         while (left < right) {
             int mid = left + (right - left) / 2;
